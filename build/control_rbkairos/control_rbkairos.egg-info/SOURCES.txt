@@ -1,6 +1,13 @@
 package.xml
 setup.cfg
 setup.py
+../../build/control_rbkairos/control_rbkairos.egg-info/PKG-INFO
+../../build/control_rbkairos/control_rbkairos.egg-info/SOURCES.txt
+../../build/control_rbkairos/control_rbkairos.egg-info/dependency_links.txt
+../../build/control_rbkairos/control_rbkairos.egg-info/entry_points.txt
+../../build/control_rbkairos/control_rbkairos.egg-info/requires.txt
+../../build/control_rbkairos/control_rbkairos.egg-info/top_level.txt
+../../build/control_rbkairos/control_rbkairos.egg-info/zip-safe
 control_rbkairos/__init__.py
 control_rbkairos/move_robot.py
 control_rbkairos.egg-info/PKG-INFO

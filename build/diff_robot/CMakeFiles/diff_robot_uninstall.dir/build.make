@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sopitaj/week6_ws/src/ros2_diff_drive_robot
+CMAKE_SOURCE_DIR = /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sopitaj/week6_ws/build/diff_robot
+CMAKE_BINARY_DIR = /home/khotkangplue_p/week6_ws/build/diff_robot
 
 # Utility rule file for diff_robot_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/diff_robot_uninstall.dir/compiler_depend.make
 include CMakeFiles/diff_robot_uninstall.dir/progress.make
 
 CMakeFiles/diff_robot_uninstall:
-	/usr/bin/cmake -P /home/sopitaj/week6_ws/build/diff_robot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/khotkangplue_p/week6_ws/build/diff_robot/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 diff_robot_uninstall: CMakeFiles/diff_robot_uninstall
 diff_robot_uninstall: CMakeFiles/diff_robot_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/diff_robot_uninstall.dir/clean:
 .PHONY : CMakeFiles/diff_robot_uninstall.dir/clean
 
 CMakeFiles/diff_robot_uninstall.dir/depend:
-	cd /home/sopitaj/week6_ws/build/diff_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sopitaj/week6_ws/src/ros2_diff_drive_robot /home/sopitaj/week6_ws/src/ros2_diff_drive_robot /home/sopitaj/week6_ws/build/diff_robot /home/sopitaj/week6_ws/build/diff_robot /home/sopitaj/week6_ws/build/diff_robot/CMakeFiles/diff_robot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/khotkangplue_p/week6_ws/build/diff_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot /home/khotkangplue_p/week6_ws/build/diff_robot /home/khotkangplue_p/week6_ws/build/diff_robot /home/khotkangplue_p/week6_ws/build/diff_robot/CMakeFiles/diff_robot_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/diff_robot_uninstall.dir/depend
 

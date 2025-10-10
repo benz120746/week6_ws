@@ -1,0 +1,2 @@
+Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_common
+Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '1': /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_common

@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/src/robotnik_description/simulators/gazebo_ignition/README.md
+/home/khotkangplue_p/week6_ws/src/robotnik_description/simulators/gazebo_ignition/README.md

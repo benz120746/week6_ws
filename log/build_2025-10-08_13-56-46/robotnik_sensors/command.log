@@ -1,0 +1,1 @@
+Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors': /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_sensors

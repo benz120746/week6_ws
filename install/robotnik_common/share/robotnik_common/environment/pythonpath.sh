@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/build/robotnik_common/ament_cmake_environment_hooks/pythonpath.sh
+/home/khotkangplue_p/week6_ws/build/robotnik_common/ament_cmake_environment_hooks/pythonpath.sh

@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/build/robotnik_sensors/ament_cmake_core/robotnik_sensorsConfig.cmake
+/home/khotkangplue_p/week6_ws/build/robotnik_sensors/ament_cmake_core/robotnik_sensorsConfig.cmake

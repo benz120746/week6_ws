@@ -1,0 +1,81 @@
+[0.011s] Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+[0.197s] -- The C compiler identification is GNU 13.3.0
+[1.199s] -- The CXX compiler identification is GNU 13.3.0
+[2.069s] -- Detecting C compiler ABI info
+[2.482s] -- Detecting C compiler ABI info - done
+[2.492s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.492s] -- Detecting C compile features
+[2.492s] -- Detecting C compile features - done
+[2.650s] -- Detecting CXX compiler ABI info
+[2.991s] -- Detecting CXX compiler ABI info - done
+[3.002s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.002s] -- Detecting CXX compile features
+[3.003s] -- Detecting CXX compile features - done
+[3.006s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.139s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.212s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.250s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.472s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.489s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.616s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.620s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.688s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.007s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.181s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.475s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[4.707s] -- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[4.713s] -- Found controller_manager: 4.37.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[5.229s] -- Found diff_drive_controller: 4.32.0 (/opt/ros/jazzy/share/diff_drive_controller/cmake)
+[5.342s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.344s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.344s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.394s] -- Found nav2_msgs: 1.3.8 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[5.480s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.575s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.575s] -- Configured cppcheck include dirs: 
+[5.575s] -- Configured cppcheck exclude dirs and/or files: 
+[5.576s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.576s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.578s] -- Added test 'lint_cmake' to check CMake code style
+[5.579s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.581s] -- Added test 'uncrustify' to check C / C++ code style
+[5.581s] -- Configured uncrustify additional arguments: 
+[5.583s] -- Added test 'xmllint' to check XML markup files
+[5.584s] -- Configuring done (5.6s)
+[5.598s] -- Generating done (0.0s)
+[5.605s] -- Build files have been written to: /home/khotkangplue_p/week6_ws/build/diff_robot
+[5.621s] Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+[5.622s] Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+[5.657s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_publisher.dir/src/odom_pose.cpp.o[0m
+[5.658s] [ 50%] [32mBuilding CXX object CMakeFiles/vel_publisher.dir/src/vel_publisher.cpp.o[0m
+[10.468s] [ 75%] [32m[1mLinking CXX executable vel_publisher[0m
+[10.881s] [ 75%] Built target vel_publisher
+[13.420s] [100%] [32m[1mLinking CXX executable pose_publisher[0m
+[13.798s] [100%] Built target pose_publisher
+[13.810s] Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+[13.818s] Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot
+[13.824s] -- Install configuration: ""
+[13.825s] -- Execute custom install script
+[13.826s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/__pycache__/robot.launch.cpython-310.pyc
+[13.834s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/new.launch.py
+[13.842s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/robot.launch.py
+[13.851s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/lib/diff_robot/pose_publisher
+[13.860s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/lib/diff_robot/vel_publisher
+[13.868s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/package_run_dependencies/diff_robot
+[13.876s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/parent_prefix_path/diff_robot
+[13.883s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/ament_prefix_path.sh
+[13.891s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/ament_prefix_path.dsv
+[13.900s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/path.sh
+[13.909s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/path.dsv
+[13.917s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.bash
+[13.924s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.sh
+[13.931s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.zsh
+[13.939s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.dsv
+[13.947s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.dsv
+[13.954s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/packages/diff_robot
+[13.962s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/cmake/diff_robotConfig.cmake
+[13.969s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/cmake/diff_robotConfig-version.cmake
+[13.977s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.xml
+[13.988s] Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot

@@ -1,0 +1,177 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (4.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/khotkangplue_p/week6_ws/build/robotnik_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/launch/robot_description.launch.py
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rb1/rb1_base_v3.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rb1/rb1_base_v3.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rb1/rb1_front_cover_v3.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rb1/rb1_front_cover_v3.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rb1/rb1_top_cover_v3.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rb1/rb1_top_cover_v3.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbfiqus/chasis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbfiqus/left_box.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbfiqus/right_box.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbfiqus/rocker.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbkairos/rbkairos_chassis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbkairos/rbkairos_top_cover.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbrobout/rbrobout_chassis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbrobout/rbrobout_top_cover.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit/rbsummit_xl_chassis.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit/rbsummit_xl_chassis_collision.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit/rbsummit_xl_chassis_simple.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit_steel/rbsummit_steel_chassis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit_steel/rbsummit_steel_top_cover.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbtheron/rbtheron_plus_top_chassis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbtheron/theron_base_v4.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_battery.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_chassis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_chassis_color.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_chassis_color.png
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_contactors.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_leds.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_logos.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_logos.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui_xl/rbvogui_xl_battery.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui_xl/rbvogui_xl_chassis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui_xl/rbvogui_xl_chassis_color.png
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui_xl/rbvogui_xl_contactors.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui_xl/rbvogui_xl_leds.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui_xl/rbvogui_xl_logos.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui_xl/rbvogui_xl_logos.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbwatcher/rbwatcher_chassis.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbwatcher/rbwatcher_chassis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbwatcher/rbwatcher_top_structure.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbwatcher/rbwatcher_top_structure.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/bases/robotnik_logo_chasis.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_base_700mm.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_base_900mm.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_700mm.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_700mm_cut.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_900mm.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_900mm_cut.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/caster_wheel/caster_wheel.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/mecanum_wheel/kairos_mecanum_wheel_1.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/mecanum_wheel/kairos_mecanum_wheel_2.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/mecanum_wheel/robout_wheel.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/mw_frame.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/rubber_wheel.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/rubber_wheel_220.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/rubber_wheel_350.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/wheel_sxl.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/steering_wheel/mw_frame_rbfiqus.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/steering_wheel/mw_frame_stl.png
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/steering_wheel/mw_frame_stl_color.dae
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/steering_wheel/mw_frame_xl.stl
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/arms/ur_macro.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rb1/rb1_base.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbfiqus/rbfiqus_base.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbkairos/rbkairos_base.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbrobout/rbrobout_base.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbrobout/rbrobout_top_cover.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbsummit/rbsummit_base.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbsummit_steel/rbsummit_steel_base.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbtheron/rbtheron_base.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbtheron/rbtheron_top_cover.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbvogui/rbvogui_base.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbvogui_xl/rbvogui_xl_base.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbwatcher/rbwatcher_base.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rb1/rb1_base.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rb1/rb1_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbfiqus/rbfiqus_body.gazebo.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbfiqus/rbfiqus_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbkairos/rbkairos_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbrobout/rbrobout_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbsummit/rbsummit_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbsummit_steel/rbsummit_steel_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbtheron/rbtheron_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbvogui/rbvogui_base.gazebo.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbvogui/rbvogui_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbvogui_xl/rbvogui_xl_base.gazebo.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbvogui_xl/rbvogui_xl_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbwatcher/rbwatcher_body.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/inertia.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/structures/ewellix/all_ewellix_lift.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/structures/ewellix/ewellix_lift_700mm.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/structures/ewellix/ewellix_lift_900mm.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/caster_wheel/rbtheron_caster.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/mecanum_wheel/rbkairos_mecanum_wheel.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/mecanum_wheel/rbrobout_mecanum_wheel.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/gazebo/rbvogui_wheel.gazebo.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/gazebo/rubber_wheel.gazebo.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/gazebo/rubber_wheel.transmission.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/rubber_wheel.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/rubber_wheel_150.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/rubber_wheel_220.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/rubber_wheel_350.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/steering_wheel/steering_wheel.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/steering_wheel/steering_wheel_350.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/steering_wheel/steering_wheel_rbfiqus.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/wheel.gazebo.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rb1/rb1.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbfiqus/rbfiqus.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbkairos/rbkairos.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbkairos/rbkairos_plus.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbrobout/rbrobout.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbrobout/rbrobout_plus.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbsummit/rbsummit.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbsummit_steel/rbsummit_steel.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbtheron/rbtheron.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbtheron/rbtheron_plus.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbvogui/rbvogui.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbvogui/rbvogui_plus.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbvogui_xl/rbvogui_xl.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/robots/rbwatcher/rbwatcher.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/README.md
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rb1/rb1_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rb1/rb1_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbfiqus/rbfiqus_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbfiqus/rbfiqus_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbkairos/rbkairos_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbkairos/rbkairos_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbrobout/rbrobout_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbrobout/rbrobout_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbsummit/rbsummit_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbsummit/rbsummit_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbsummit_steel/rbsummit_steel_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbtheron/rbtheron_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbtheron/rbtheron_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbvogui/rbvogui_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbvogui/rbvogui_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbvogui_xl/rbvogui_xl_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbvogui_xl/rbvogui_xl_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbwatcher/rbwatcher_control.urdf.xacro
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbwatcher/rbwatcher_controller_params.yaml
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/simulators/isaac/README.md
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/ament_index/resource_index/package_run_dependencies/robotnik_description
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/ament_index/resource_index/parent_prefix_path/robotnik_description
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/environment/path.sh
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/environment/path.dsv
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/local_setup.bash
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/local_setup.sh
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/local_setup.zsh
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/local_setup.dsv
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.dsv
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/ament_index/resource_index/packages/robotnik_description
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/cmake/robotnik_descriptionConfig.cmake
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/cmake/robotnik_descriptionConfig-version.cmake
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.xml

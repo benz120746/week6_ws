@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sopitaj/week6_ws/src/robotnik_sensors/robotnik_sensors
+CMAKE_SOURCE_DIR = /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sopitaj/week6_ws/build/robotnik_sensors
+CMAKE_BINARY_DIR = /home/khotkangplue_p/week6_ws/build/robotnik_sensors
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/sopitaj/week6_ws/build/robotnik_sensors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sopitaj/week6_ws/src/robotnik_sensors/robotnik_sensors /home/sopitaj/week6_ws/src/robotnik_sensors/robotnik_sensors /home/sopitaj/week6_ws/build/robotnik_sensors /home/sopitaj/week6_ws/build/robotnik_sensors /home/sopitaj/week6_ws/build/robotnik_sensors/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/khotkangplue_p/week6_ws/build/robotnik_sensors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors /home/khotkangplue_p/week6_ws/build/robotnik_sensors /home/khotkangplue_p/week6_ws/build/robotnik_sensors /home/khotkangplue_p/week6_ws/build/robotnik_sensors/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

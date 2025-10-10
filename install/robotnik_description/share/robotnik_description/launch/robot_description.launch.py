@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/src/robotnik_description/launch/robot_description.launch.py
+/home/khotkangplue_p/week6_ws/src/robotnik_description/launch/robot_description.launch.py

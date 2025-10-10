@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/src/control_rbkairos/launch/gz_spawn_rbkairos.launch.py
+/home/khotkangplue_p/week6_ws/src/control_rbkairos/launch/gz_spawn_rbkairos.launch.py

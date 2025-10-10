@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/build/control_rbkairos/launch/gazebo_robot.launch.py
+/home/khotkangplue_p/week6_ws/build/control_rbkairos/launch/gazebo_robot.launch.py

@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/build/robotnik_common/ament_cmake_environment_hooks/local_setup.sh
+/home/khotkangplue_p/week6_ws/build/robotnik_common/ament_cmake_environment_hooks/local_setup.sh

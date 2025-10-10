@@ -1,0 +1,6 @@
+Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot
+Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot

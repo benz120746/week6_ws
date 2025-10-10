@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sopitaj/week6_ws/src/robotnik_common/robotnik_common
+CMAKE_SOURCE_DIR = /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sopitaj/week6_ws/build/robotnik_common
+CMAKE_BINARY_DIR = /home/khotkangplue_p/week6_ws/build/robotnik_common
 
 # Utility rule file for robotnik_common_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robotnik_common_uninstall.dir/compiler_depend.make
 include CMakeFiles/robotnik_common_uninstall.dir/progress.make
 
 CMakeFiles/robotnik_common_uninstall:
-	/usr/bin/cmake -P /home/sopitaj/week6_ws/build/robotnik_common/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/khotkangplue_p/week6_ws/build/robotnik_common/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robotnik_common_uninstall: CMakeFiles/robotnik_common_uninstall
 robotnik_common_uninstall: CMakeFiles/robotnik_common_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robotnik_common_uninstall.dir/clean:
 .PHONY : CMakeFiles/robotnik_common_uninstall.dir/clean
 
 CMakeFiles/robotnik_common_uninstall.dir/depend:
-	cd /home/sopitaj/week6_ws/build/robotnik_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sopitaj/week6_ws/src/robotnik_common/robotnik_common /home/sopitaj/week6_ws/src/robotnik_common/robotnik_common /home/sopitaj/week6_ws/build/robotnik_common /home/sopitaj/week6_ws/build/robotnik_common /home/sopitaj/week6_ws/build/robotnik_common/CMakeFiles/robotnik_common_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/khotkangplue_p/week6_ws/build/robotnik_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common /home/khotkangplue_p/week6_ws/build/robotnik_common /home/khotkangplue_p/week6_ws/build/robotnik_common /home/khotkangplue_p/week6_ws/build/robotnik_common/CMakeFiles/robotnik_common_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/robotnik_common_uninstall.dir/depend
 

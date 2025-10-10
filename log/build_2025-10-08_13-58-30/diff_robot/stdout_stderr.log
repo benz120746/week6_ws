@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+-- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+-- Found controller_manager: 4.37.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found diff_drive_controller: 4.32.0 (/opt/ros/jazzy/share/diff_drive_controller/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findnav2_msgs.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "nav2_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "nav2_msgs" with
+  any of the following names:
+
+    nav2_msgsConfig.cmake
+    nav2_msgs-config.cmake
+
+  Add the installation prefix of "nav2_msgs" to CMAKE_PREFIX_PATH or set
+  "nav2_msgs_DIR" to a directory containing one of the above files.  If
+  "nav2_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!

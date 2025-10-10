@@ -1,0 +1,24 @@
+[ 50%] Built target vel_publisher
+[100%] Built target pose_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/__pycache__/robot.launch.cpython-310.pyc
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/new.launch.py
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/robot.launch.py
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/lib/diff_robot/pose_publisher
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/lib/diff_robot/vel_publisher
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/package_run_dependencies/diff_robot
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/parent_prefix_path/diff_robot
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/path.sh
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/path.dsv
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.bash
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.sh
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.zsh
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.dsv
+-- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.dsv
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/packages/diff_robot
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/cmake/diff_robotConfig.cmake
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/cmake/diff_robotConfig-version.cmake
+-- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.xml

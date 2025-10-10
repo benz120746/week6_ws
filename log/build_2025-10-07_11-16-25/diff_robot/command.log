@@ -1,6 +1,0 @@
-Invoking command in '/home/sopitaj/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sopitaj/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sopitaj/week6_ws/install/diff_robot
-Invoked command in '/home/sopitaj/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sopitaj/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sopitaj/week6_ws/install/diff_robot
-Invoking command in '/home/sopitaj/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sopitaj/week6_ws/build/diff_robot -- -j8 -l8
-Invoked command in '/home/sopitaj/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sopitaj/week6_ws/build/diff_robot -- -j8 -l8
-Invoking command in '/home/sopitaj/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sopitaj/week6_ws/build/diff_robot
-Invoked command in '/home/sopitaj/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sopitaj/week6_ws/build/diff_robot

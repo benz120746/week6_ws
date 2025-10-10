@@ -1,0 +1,20 @@
+[1.140s] Invoking command in '/home/khotkangplue_p/week6_ws/build/control_rbkairos': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khotkangplue_p/week6_ws/build/control_rbkairos/build --no-deps symlink_data
+[1.430s] running develop
+[1.595s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.595s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.629s] running egg_info
+[1.649s] writing control_rbkairos.egg-info/PKG-INFO
+[1.649s] writing dependency_links to control_rbkairos.egg-info/dependency_links.txt
+[1.649s] writing entry points to control_rbkairos.egg-info/entry_points.txt
+[1.649s] writing requirements to control_rbkairos.egg-info/requires.txt
+[1.649s] writing top-level names to control_rbkairos.egg-info/top_level.txt
+[1.691s] reading manifest file 'control_rbkairos.egg-info/SOURCES.txt'
+[1.692s] writing manifest file 'control_rbkairos.egg-info/SOURCES.txt'
+[1.712s] running build_ext
+[1.713s] Creating /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control-rbkairos.egg-link (link to .)
+[1.713s] Installing move_robot script to /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/control_rbkairos
+[1.713s] Installing robot_movement script to /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/control_rbkairos
+[1.714s] 
+[1.714s] Installed /home/khotkangplue_p/week6_ws/build/control_rbkairos
+[1.714s] running symlink_data
+[1.743s] Invoked command in '/home/khotkangplue_p/week6_ws/build/control_rbkairos' returned '0': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khotkangplue_p/week6_ws/build/control_rbkairos/build --no-deps symlink_data

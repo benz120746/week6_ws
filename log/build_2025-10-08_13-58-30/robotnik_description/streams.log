@@ -1,0 +1,20 @@
+[0.071s] Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_description': AMENT_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_description
+[0.256s] -- The C compiler identification is GNU 13.3.0
+[1.257s] -- The CXX compiler identification is GNU 13.3.0
+[2.171s] -- Detecting C compiler ABI info
+[2.476s] -- Detecting C compiler ABI info - done
+[2.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.483s] -- Detecting C compile features
+[2.484s] -- Detecting C compile features - done
+[2.628s] -- Detecting CXX compiler ABI info
+[2.968s] -- Detecting CXX compiler ABI info - done
+[2.975s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.976s] -- Detecting CXX compile features
+[2.976s] -- Detecting CXX compile features - done
+[2.979s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.093s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.253s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[3.664s] -- Configuring done (3.6s)
+[3.667s] -- Generating done (0.0s)
+[3.668s] -- Build files have been written to: /home/khotkangplue_p/week6_ws/build/robotnik_description

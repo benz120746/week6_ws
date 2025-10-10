@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sopitaj/week6_ws/build/diff_robot/pose_publisher" "/home/sopitaj/week6_ws/build/diff_robot/vel_publisher" "TARGETS" "pose_publisher" "vel_publisher" "DESTINATION" "lib/diff_robot")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/khotkangplue_p/week6_ws/build/diff_robot/pose_publisher" "/home/khotkangplue_p/week6_ws/build/diff_robot/vel_publisher" "TARGETS" "pose_publisher" "vel_publisher" "DESTINATION" "lib/diff_robot")

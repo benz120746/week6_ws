@@ -1,0 +1,31 @@
+[0.209s] Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+[0.407s] -- The C compiler identification is GNU 13.3.0
+[1.487s] -- The CXX compiler identification is GNU 13.3.0
+[2.307s] -- Detecting C compiler ABI info
+[2.665s] -- Detecting C compiler ABI info - done
+[2.673s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.673s] -- Detecting C compile features
+[2.673s] -- Detecting C compile features - done
+[2.799s] -- Detecting CXX compiler ABI info
+[3.141s] -- Detecting CXX compiler ABI info - done
+[3.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.150s] -- Detecting CXX compile features
+[3.150s] -- Detecting CXX compile features - done
+[3.895s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[3.895s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.895s]   has asked CMake to find a package configuration file provided by
+[3.895s]   "ament_cmake", but CMake did not find one.
+[3.895s] 
+[3.895s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.895s]   any of the following names:
+[3.895s] 
+[3.895s]     ament_cmakeConfig.cmake
+[3.895s]     ament_cmake-config.cmake
+[3.895s] 
+[3.895s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.895s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.895s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.895s]   has been installed.
+[3.895s] 
+[3.895s] [0m
+[3.895s] -- Configuring incomplete, errors occurred!

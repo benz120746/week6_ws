@@ -1,0 +1,206 @@
+[0.050s] Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_sensors
+[0.454s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.630s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.633s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[1.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.954s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.954s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.957s] -- Added test 'lint_cmake' to check CMake code style
+[1.959s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.968s] -- Added test 'xmllint' to check XML markup files
+[1.972s] -- Configuring done (1.8s)
+[1.986s] -- Generating done (0.0s)
+[1.990s] -- Build files have been written to: /home/khotkangplue_p/week6_ws/build/robotnik_sensors
+[1.995s] Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_sensors
+[1.995s] Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_sensors -- -j4 -l4
+[2.091s] Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_sensors -- -j4 -l4
+[2.092s] Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_sensors
+[2.102s] -- Install configuration: ""
+[2.103s] -- Execute custom install script
+[2.109s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/microscan3.dae
+[2.109s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/microscan3.stl
+[2.110s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/nanoscan3.stl
+[2.110s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/outdoorscan3.dae
+[2.111s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/outdoorscan3.stl
+[2.112s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s300.dae
+[2.112s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s300.png
+[2.113s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s300.stl
+[2.113s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s3000.dae
+[2.114s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s3000.stl
+[2.115s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim551.dae
+[2.115s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim551.stl
+[2.116s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim571.dae
+[2.117s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim571.stl
+[2.118s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/livox_mid_360.stl
+[2.119s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/robotsense/bpearl.dae
+[2.120s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/robotsense/bpearl.stl
+[2.120s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/robotsense/helios_16p.stl
+[2.122s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/velodyne/vlp16.dae
+[2.122s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/velodyne/vlp16.stl
+[2.123s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/asus_xtion_pro_live.dae
+[2.123s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/asus_xtion_pro_live.png
+[2.124s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/benewake_ce30.stl
+[2.125s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/benewake_ce30d.dae
+[2.125s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/benewake_ce30d.stl
+[2.126s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_m5013.dae
+[2.127s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_m5013.stl
+[2.128s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_m5525.dae
+[2.128s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_m5525.stl
+[2.129s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_p5512.dae
+[2.129s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_p5512.stl
+[2.130s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_p5514.dae
+[2.130s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_p5514.stl
+[2.131s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_q8641_n1-1.STL
+[2.131s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/axis_q8641_n2-1.STL
+[2.132s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/camera_axis_q8641.STL
+[2.133s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/link_750_base.stl
+[2.133s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/link_750_pan.stl
+[2.134s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera/link_750_tilt.stl
+[2.136s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435.dae
+[2.136s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435.png
+[2.137s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435.stl
+[2.137s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435_color.dae
+[2.139s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/orbbec_astra/orbbec_astra.dae
+[2.139s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/orbbec_astra/orbbec_astra.stl
+[2.140s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/stereolabs_zed/zed.stl
+[2.141s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/stereolabs_zed/zed2.stl
+[2.142s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/stereolabs_zed/zedm.stl
+[2.142s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/fotonic_e.stl
+[2.143s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps/antenna_3GO16.dae
+[2.144s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps/antenna_3GO16.stl
+[2.144s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps/antenna_ANN_MB.stl
+[2.145s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps/mastil_gps.stl
+[2.146s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo.png
+[2.146s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo3d.dae
+[2.147s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo3d.jpg
+[2.148s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo3d.stl
+[2.149s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_urg_04lx.dae
+[2.149s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_urg_04lx.stl
+[2.150s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_ust_10lx.dae
+[2.151s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_ust_20lx.dae
+[2.151s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_utm_30lx.dae
+[2.152s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_utm_30lx.stl
+[2.154s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/imu/vectornav_vn100.stl
+[2.154s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/intel_r430.dae
+[2.155s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/intel_r430.stl
+[2.156s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinect.dae
+[2.156s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinect.jpg
+[2.157s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinect.tga
+[2.157s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2.dae
+[2.158s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2.stl
+[2.159s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2_nobase.dae
+[2.159s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2_nobase.stl
+[2.160s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/lidar_mast.STL
+[2.161s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/orbbec_astra_embedded_s.dae
+[2.161s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/orbbec_astra_embedded_s.stl
+[2.162s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ouster1.STL
+[2.163s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/pointgrey_bumblebee2.dae
+[2.163s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rplidar.dae
+[2.164s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rplidar_a2.dae
+[2.164s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rplidar_a2.stl
+[2.165s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rslidar.dae
+[2.165s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rslidar.stl
+[2.166s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rslidar_mems.stl
+[2.167s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/sick_mls.stl
+[2.167s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/teraranger_tr_duo.dae
+[2.168s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/teraranger_tr_duo.stl
+[2.169s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ueye_cp_gige.dae
+[2.169s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ueye_cp_gige.stl
+[2.170s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/viper.dae
+[2.171s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/viper.stl
+[2.172s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ydlidar_4f.dae
+[2.172s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ydlidar_4f.png
+[2.173s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/yujin_yrl.stl
+[2.175s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_urg04lx.urdf.xacro
+[2.176s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_ust10lx.urdf.xacro
+[2.177s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_ust20lx.urdf.xacro
+[2.177s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_utm30lx.urdf.xacro
+[2.178s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/lidar_2d_plugin.urdf.xacro
+[2.179s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_microscan3.urdf.xacro
+[2.179s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_nanoscan3.urdf.xacro
+[2.180s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_outdoorscan3.urdf.xacro
+[2.181s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_s300.urdf.xacro
+[2.181s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_s3000.urdf.xacro
+[2.182s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_tim551.urdf.xacro
+[2.182s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_tim571.urdf.xacro
+[2.183s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/lidar_3d_plugin.urdf.xacro
+[2.184s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/livox_mid_360.urdf.xacro
+[2.184s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/ouster.urdf.xacro
+[2.185s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/robosense_bpearl.urdf.xacro
+[2.186s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/robosense_helios_16p.urdf.xacro
+[2.186s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/sick_multiscan_100.urdf.xacro
+[2.187s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/velodyne_vlp16.urdf.xacro
+[2.188s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/all_sensors.urdf.xacro
+[2.189s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5013.urdf.xacro
+[2.190s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5074.urdf.xacro
+[2.191s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5525.urdf.xacro
+[2.191s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5526.urdf.xacro
+[2.191s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/camera_plugin.urdf.xacro
+[2.192s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/link_750_nh.urdf.xacro
+[2.193s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/asus_xtion_pro.urdf.xacro
+[2.194s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/axis.urdf.xacro
+[2.195s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/axis_q8641.urdf.xacro
+[2.195s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/benewake_ce30.urdf.xacro
+[2.196s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/benewake_ce30d.urdf.xacro
+[2.197s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/embedded_s.urdf.xacro
+[2.197s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/flir_ax8.urdf.xacro
+[2.198s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/fotonic_e.urdf.xacro
+[2.199s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/hokuyo3d.urdf.xacro
+[2.199s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/imu.urdf.xacro
+[2.200s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/imu_hector_plugin.urdf.xacro
+[2.201s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/intel_d435.urdf.xacro
+[2.202s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/intel_r430.urdf.xacro
+[2.203s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/kinect.urdf.xacro
+[2.203s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/kinectv2.urdf.xacro
+[2.204s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/lidar_mast.urdf.xacro
+[2.205s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/pantilt.urdf.xacro
+[2.206s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/pointgrey_bumblebee2.urdf.xacro
+[2.206s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/roboteq_mgs.urdf.xacro
+[2.207s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rplidar.urdf.xacro
+[2.209s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rplidar_a2.urdf.xacro
+[2.209s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rslidar.urdf.xacro
+[2.210s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rslidar_mems.urdf.xacro
+[2.211s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rubedos_viper.urdf.xacro
+[2.211s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/sick_mls.urdf.xacro
+[2.212s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/teraranger_tr_duo.urdf.xacro
+[2.213s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/ueye_cp_gige.urdf.xacro
+[2.213s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/ydlidar_4f.urdf.xacro
+[2.214s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/yujin_yrl.urdf.xacro
+[2.214s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/zed.urdf.xacro
+[2.215s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/zed2.urdf.xacro
+[2.217s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/azure_kinect.urdf.xacro
+[2.218s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/depth_camera_plugin.urdf.xacro
+[2.218s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/intel_realsense_d435.urdf.xacro
+[2.219s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/intel_realsense_d435i.urdf.xacro
+[2.220s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/irred_camera_plugin.urdf.xacro
+[2.220s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/orbbec_astra.urdf.xacro
+[2.221s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/stereolabs_generic.urdf.xacro
+[2.222s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/stereolabs_zed2.urdf.xacro
+[2.223s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/stereolabs_zed2i.urdf.xacro
+[2.223s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/gps.urdf.xacro
+[2.224s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/gps_plugin.urdf.xacro
+[2.224s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/gps_with_mast.urdf.xacro
+[2.225s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/ublox.urdf.xacro
+[2.226s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/ublox_with_mast.urdf.xacro
+[2.226s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/imu_plugin.urdf.xacro
+[2.227s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/myahrs.urdf.xacro
+[2.228s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/pixhawk.urdf.xacro
+[2.229s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/vectornav.urdf.xacro
+[2.229s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/utils/inertia.urdf.xacro
+[2.231s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/ament_index/resource_index/package_run_dependencies/robotnik_sensors
+[2.233s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/ament_index/resource_index/parent_prefix_path/robotnik_sensors
+[2.234s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/environment/ament_prefix_path.sh
+[2.234s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/environment/ament_prefix_path.dsv
+[2.235s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/environment/path.sh
+[2.236s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/environment/path.dsv
+[2.236s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.bash
+[2.237s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.sh
+[2.238s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.zsh
+[2.239s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.dsv
+[2.239s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.dsv
+[2.255s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/ament_index/resource_index/packages/robotnik_sensors
+[2.256s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/cmake/robotnik_sensorsConfig.cmake
+[2.256s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/cmake/robotnik_sensorsConfig-version.cmake
+[2.257s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.xml
+[2.265s] Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_sensors

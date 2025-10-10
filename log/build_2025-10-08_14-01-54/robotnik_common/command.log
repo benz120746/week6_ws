@@ -1,0 +1,4 @@
+Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_common -- -j4 -l4
+Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_common -- -j4 -l4
+Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_common
+Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_common

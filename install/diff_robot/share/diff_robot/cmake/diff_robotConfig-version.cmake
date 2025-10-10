@@ -1,1 +1,1 @@
-/home/sopitaj/week6_ws/build/diff_robot/ament_cmake_core/diff_robotConfig-version.cmake
+/home/khotkangplue_p/week6_ws/build/diff_robot/ament_cmake_core/diff_robotConfig-version.cmake

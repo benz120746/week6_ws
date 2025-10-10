@@ -16,7 +16,7 @@ def generate_launch_description():
     env['IGN_GAZEBO_SYSTEM_PLUGIN_PATH'] = f"{ros_lib_path}:{env.get('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '')}"
     env['AMENT_PREFIX_PATH'] = f"/opt/ros/kilted:{env.get('AMENT_PREFIX_PATH', '')}"
     
-    world_file_path = '/home/sopitaj/table.world'
+    world_file_path = '/home/khotkangplue_p/table.world'
     
     # === Start Gazebo simulation ===
     start_gazebo_cmd = ExecuteProcess(
@@ -26,7 +26,7 @@ def generate_launch_description():
     )
 
     # === File path for the world model ===
-    urdf_file_path = '/home/sopitaj/rbkairos.urdf'
+    urdf_file_path = '/home/khotkangplue_p/rbkairos.urdf'
 
     # === Load robot description from URDF ===
     with open(urdf_file_path, 'r') as urdf_file:

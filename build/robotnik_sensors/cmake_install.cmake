@@ -1,8 +1,8 @@
-# Install script for directory: /home/sopitaj/week6_ws/src/robotnik_sensors/robotnik_sensors
+# Install script for directory: /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sopitaj/week6_ws/install/robotnik_sensors")
+  set(CMAKE_INSTALL_PREFIX "/home/khotkangplue_p/week6_ws/install/robotnik_sensors")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/sopitaj/week6_ws/build/robotnik_sensors/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/khotkangplue_p/week6_ws/build/robotnik_sensors/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sopitaj/week6_ws/build/robotnik_sensors/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/khotkangplue_p/week6_ws/build/robotnik_sensors/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

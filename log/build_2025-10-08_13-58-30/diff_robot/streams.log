@@ -1,0 +1,40 @@
+[0.221s] Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+[0.236s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.454s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.492s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.807s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.830s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.004s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.010s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.124s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.487s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.004s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[2.319s] -- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[2.329s] -- Found controller_manager: 4.37.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[2.886s] -- Found diff_drive_controller: 4.32.0 (/opt/ros/jazzy/share/diff_drive_controller/cmake)
+[2.983s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.985s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.985s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.715s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[4.716s]   By not providing "Findnav2_msgs.cmake" in CMAKE_MODULE_PATH this project
+[4.716s]   has asked CMake to find a package configuration file provided by
+[4.716s]   "nav2_msgs", but CMake did not find one.
+[4.716s] 
+[4.716s]   Could not find a package configuration file provided by "nav2_msgs" with
+[4.716s]   any of the following names:
+[4.717s] 
+[4.717s]     nav2_msgsConfig.cmake
+[4.717s]     nav2_msgs-config.cmake
+[4.717s] 
+[4.717s]   Add the installation prefix of "nav2_msgs" to CMAKE_PREFIX_PATH or set
+[4.717s]   "nav2_msgs_DIR" to a directory containing one of the above files.  If
+[4.717s]   "nav2_msgs" provides a separate development package or SDK, be sure it has
+[4.717s]   been installed.
+[4.717s] 
+[4.717s] [0m
+[4.720s] -- Configuring incomplete, errors occurred!
+[4.728s] Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot

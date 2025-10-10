@@ -1,0 +1,51 @@
+[0.224s] Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_common -- -j4 -l4
+[0.300s] Built target ament_cmake_python_symlink_robotnik_common
+[0.527s] running egg_info
+[0.547s] writing robotnik_common.egg-info/PKG-INFO
+[0.547s] writing dependency_links to robotnik_common.egg-info/dependency_links.txt
+[0.547s] writing top-level names to robotnik_common.egg-info/top_level.txt
+[0.607s] reading manifest file 'robotnik_common.egg-info/SOURCES.txt'
+[0.607s] writing manifest file 'robotnik_common.egg-info/SOURCES.txt'
+[0.631s] Built target ament_cmake_python_build_robotnik_common_egg
+[0.642s] Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_common -- -j4 -l4
+[0.643s] Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_common
+[0.649s] -- Install configuration: ""
+[0.650s] -- Execute custom install script
+[0.650s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/environment/pythonpath.sh
+[0.650s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/environment/pythonpath.dsv
+[0.651s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common-1.2.0-py3.12.egg-info/PKG-INFO
+[0.651s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common-1.2.0-py3.12.egg-info/SOURCES.txt
+[0.651s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common-1.2.0-py3.12.egg-info/dependency_links.txt
+[0.651s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common-1.2.0-py3.12.egg-info/top_level.txt
+[0.652s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/__init__.py
+[0.652s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/__init__.py:Zone.Identifier
+[0.652s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/__init__.py
+[0.652s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/__init__.py:Zone.Identifier
+[0.652s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/__init__.py:Zone.Identifier:Zone.Identifier
+[0.652s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/add_launch_args.py
+[0.653s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/add_launch_args.py:Zone.Identifier
+[0.653s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/add_launch_args.py:Zone.Identifier:Zone.Identifier
+[0.653s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/global_scope.py
+[0.653s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/global_scope.py:Zone.Identifier
+[0.653s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/global_scope.py:Zone.Identifier:Zone.Identifier
+[0.653s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/rewritten_yaml.py
+[0.654s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/rewritten_yaml.py:Zone.Identifier
+[0.654s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch/rewritten_yaml.py:Zone.Identifier:Zone.Identifier
+[0.654s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/ament_index/resource_index/package_run_dependencies/robotnik_common
+[0.654s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/ament_index/resource_index/parent_prefix_path/robotnik_common
+[0.654s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/environment/ament_prefix_path.sh
+[0.655s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/environment/ament_prefix_path.dsv
+[0.655s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/environment/path.sh
+[0.655s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/environment/path.dsv
+[0.655s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/local_setup.bash
+[0.655s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/local_setup.sh
+[0.655s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/local_setup.zsh
+[0.655s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/local_setup.dsv
+[0.655s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.dsv
+[0.661s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/ament_index/resource_index/packages/robotnik_common
+[0.661s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/cmake/robotnik_commonConfig.cmake
+[0.661s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/cmake/robotnik_commonConfig-version.cmake
+[0.661s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.xml
+[0.689s] Listing '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common'...
+[0.689s] Listing '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common/launch'...
+[0.695s] Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_common

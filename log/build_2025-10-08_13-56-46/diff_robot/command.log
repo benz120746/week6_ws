@@ -1,0 +1,1 @@
+Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot

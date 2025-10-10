@@ -1,0 +1,28 @@
+[0.216s] Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+[0.286s] [ 50%] Built target vel_publisher
+[0.298s] [100%] Built target pose_publisher
+[0.308s] Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+[0.308s] Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot
+[0.319s] -- Install configuration: ""
+[0.320s] -- Execute custom install script
+[0.320s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/__pycache__/robot.launch.cpython-310.pyc
+[0.321s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/new.launch.py
+[0.321s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot//launch/robot.launch.py
+[0.322s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/lib/diff_robot/pose_publisher
+[0.322s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/lib/diff_robot/vel_publisher
+[0.322s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/package_run_dependencies/diff_robot
+[0.323s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/parent_prefix_path/diff_robot
+[0.323s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/ament_prefix_path.sh
+[0.323s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/ament_prefix_path.dsv
+[0.324s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/path.sh
+[0.324s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/environment/path.dsv
+[0.324s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.bash
+[0.325s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.sh
+[0.325s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.zsh
+[0.325s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/local_setup.dsv
+[0.325s] -- Symlinking: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.dsv
+[0.336s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/ament_index/resource_index/packages/diff_robot
+[0.336s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/cmake/diff_robotConfig.cmake
+[0.336s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/cmake/diff_robotConfig-version.cmake
+[0.336s] -- Up-to-date symlink: /home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.xml
+[0.344s] Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot

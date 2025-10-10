@@ -1,8 +1,8 @@
-# Install script for directory: /home/sopitaj/week6_ws/src/robotnik_common/robotnik_common
+# Install script for directory: /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sopitaj/week6_ws/install/robotnik_common")
+  set(CMAKE_INSTALL_PREFIX "/home/khotkangplue_p/week6_ws/install/robotnik_common")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/sopitaj/week6_ws/build/robotnik_common/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/khotkangplue_p/week6_ws/build/robotnik_common/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/sopitaj/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common"
+        "/home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages/robotnik_common"
       )
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sopitaj/week6_ws/build/robotnik_common/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/khotkangplue_p/week6_ws/build/robotnik_common/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

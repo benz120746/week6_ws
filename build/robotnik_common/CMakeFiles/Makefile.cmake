@@ -10,8 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "ament_cmake_core/package.cmake"
   "ament_cmake_package_templates/templates.cmake"
-  "/home/sopitaj/week6_ws/src/robotnik_common/robotnik_common/CMakeLists.txt"
-  "/home/sopitaj/week6_ws/src/robotnik_common/robotnik_common/package.xml"
+  "/home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common/CMakeLists.txt"
+  "/home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common/package.xml"
   "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/pythonpath.sh.in"
   "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/package_level/local_setup.bash.in"
   "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/package_level/local_setup.sh.in"
@@ -72,13 +72,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/jazzy/share/ament_cmake_python/cmake/ament_get_python_install_dir.cmake"
   "/opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_module.cmake"
   "/opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake"
-  "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.28/Modules/FindPython/Support.cmake"
@@ -96,7 +93,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "ament_cmake_core/stamps/templates_2_cmake.py.stamp"
   "ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
   "ament_cmake_symlink_install/ament_cmake_symlink_install.cmake"
