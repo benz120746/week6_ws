@@ -1,51 +1,49 @@
 # robot
-📦 2. Clone โปรเจกต์จาก GitHub
-
-⚠️ ถ้า repo ของเคนตะแก้ submodule ออกแล้ว (เป็นโฟลเดอร์ปกติ) → ใช้บรรทัดแรก
-แต่ถ้ายังมี submodule อยู่ → ใช้แบบที่มี --recurse-submodules
-
-✅ แบบปกติ
-git clone https://github.com/SopitaJW/rbkairos_ws.git
-
-✅ ถ้ามี submodule (เข้าโฟลเดอร์ไม่ได้ตอนดูบน GitHub)
-git clone --recurse-submodules https://github.com/SopitaJW/rbkairos_ws.git
+1. Clone โปรเจกต์จาก GitHub
 
 
-เข้าไปในโฟลเดอร์โปรเจกต์:
+2. เข้าไปในโฟลเดอร์โปรเจกต์:
+cd week6_ws
 
-cd rbkairos_ws
-
-⚙️ 3. Build workspace
-colcon build
-
-
-หลังจาก build เสร็จ ให้ source environment:
-
-source install/setup.bash
-
-🚀 4. การรัน Launch File
-
-เช่นถ้ามี launch ชื่อ rbkairos_mecanum.launch.py
-ให้สั่ง:
-
-ros2 launch robot_model rbkairos_mecanum.launch.py
-
-
-💡 ตรวจสอบชื่อ package และไฟล์ launch ให้ตรงกับที่มีใน src/
-
-🧠 5. โครงสร้างไฟล์ (ตัวอย่าง)
-rbkairos_ws/
-├── src/
-│   ├── robotnik_description/
-│   ├── robotnik_sensors/
-│   ├── ros2_diff_drive_robot/
-│   └── robot_model/
-├── build/
-├── install/
-├── log/
-├── CMakeLists.txt
-└── README.md
-
-🧹 6. ถ้าแก้โค้ดแล้ว build ใหม่
+3. Build workspace
 colcon build --symlink-install
+
+4.หลังจาก build เสร็จ ให้ source environment:
 source install/setup.bash
+source /opt/ros/jazzy/setup.bash
+
+5.ติดตั้งปลั๊กอินฝั่ง Jazzy
+sudo apt update
+sudo apt install -y ros-jazzy-sdformat-urdf
+
+6.ถ้ามันยังติด kilted อยู่ให้ลบออก
+sudo apt remove -y ros-kilted-sdformat-urdf
+
+7.โหลด env ให้สะอาด แล้วตั้งค่าให้ใช้ของ Jazzy
+# ปิดโปรเซสที่อาจค้าง
+pkill -f "gz sim" || true
+pkill -f "parameter_bridge" || true
+
+# เคลียร์ตัวแปรที่อาจชี้ไป distro อื่น
+unset AMENT_PREFIX_PATH CMAKE_PREFIX_PATH COLCON_PREFIX_PATH LD_LIBRARY_PATH PYTHONPATH \
+      GZ_CONFIG_PATH GZ_SIM_RESOURCE_PATH GZ_SIM_SYSTEM_PLUGIN_PATH
+
+# โหลดเฉพาะ Jazzy (และ overlay ของเรา ถ้ามี)
+source /opt/ros/jazzy/setup.bash
+source ~/week6_ws/install/setup.bash
+
+# บอก gz ให้มองปลั๊กอินจาก Jazzy เท่านั้น
+export GZ_SIM_SYSTEM_PLUGIN_PATH=/opt/ros/jazzy/lib
+
+# เช็คว่าไม่มีคำว่า kilted ใน env แล้ว
+env | egrep 'AMENT|CMAKE|LD_LIBRARY|PYTHONPATH|GZ' | grep -i kilted || echo "OK: no kilted in env"
+
+------ Run ทดสอย ------
+8.Terminal A
+ros2 launch control_rbkairos gazebo_robot.launch.py
+
+9.Terminal B
+source /opt/ros/jazzy/setup.bash
+source ~/week6_ws/install/setup.bash
+python3 ~/week6_ws/src/control_rbkairos/scripts/robot_movement.py
+
