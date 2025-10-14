@@ -1,0 +1,442 @@
+[0.378s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.378s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73d1a058ad80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73d1a0644c20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73d1a0644c20>>, mixin_verb=('build',))
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/khotkangplue_p/week6_ws'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(robot_models) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_rbkairos) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_rbkairos' with type 'ros.ament_python' and name 'control_rbkairos'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common) by extension 'python_setup_py'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_common/robotnik_common) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotnik_common/robotnik_common' with type 'ros.ament_cmake' and name 'robotnik_common'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_description) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotnik_description' with type 'ros.ament_cmake' and name 'robotnik_description'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'ros'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'python'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotnik_sensors/robotnik_sensors) by extension 'ros'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotnik_sensors/robotnik_sensors' with type 'ros.ament_cmake' and name 'robotnik_sensors'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_diff_drive_robot) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_diff_drive_robot' with type 'ros.ament_cmake' and name 'diff_robot'
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.555s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/khotkangplue_p/week6_ws/install
+[0.556s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/jazzy
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'cmake_target' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'cmake_clean_first' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'cmake_force_configure' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'ament_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'control_rbkairos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.615s] DEBUG:colcon.colcon_core.verb:Building package 'control_rbkairos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khotkangplue_p/week6_ws/build/control_rbkairos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khotkangplue_p/week6_ws/install/control_rbkairos', 'merge_install': False, 'path': '/home/khotkangplue_p/week6_ws/src/control_rbkairos', 'symlink_install': False, 'test_result_base': None}
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'cmake_target' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'diff_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.616s] DEBUG:colcon.colcon_core.verb:Building package 'diff_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khotkangplue_p/week6_ws/build/diff_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khotkangplue_p/week6_ws/install/diff_robot', 'merge_install': False, 'path': '/home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot', 'symlink_install': False, 'test_result_base': None}
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'cmake_target' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.616s] DEBUG:colcon.colcon_core.verb:Building package 'robotnik_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khotkangplue_p/week6_ws/build/robotnik_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khotkangplue_p/week6_ws/install/robotnik_common', 'merge_install': False, 'path': '/home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common', 'symlink_install': False, 'test_result_base': None}
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'cmake_target' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.617s] DEBUG:colcon.colcon_core.verb:Building package 'robotnik_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khotkangplue_p/week6_ws/build/robotnik_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khotkangplue_p/week6_ws/install/robotnik_sensors', 'merge_install': False, 'path': '/home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors', 'symlink_install': False, 'test_result_base': None}
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'cmake_target' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'robotnik_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.617s] DEBUG:colcon.colcon_core.verb:Building package 'robotnik_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khotkangplue_p/week6_ws/build/robotnik_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khotkangplue_p/week6_ws/install/robotnik_description', 'merge_install': False, 'path': '/home/khotkangplue_p/week6_ws/src/robotnik_description', 'symlink_install': False, 'test_result_base': None}
+[0.617s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.618s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.618s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors' with build type 'ament_cmake'
+[0.618s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors'
+[0.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.626s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khotkangplue_p/week6_ws/src/control_rbkairos' with build type 'ament_python'
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_rbkairos', 'ament_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/hook/ament_prefix_path.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/hook/ament_prefix_path.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/hook/ament_prefix_path.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.639s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot' with build type 'ament_cmake'
+[0.639s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.644s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common' with build type 'ament_cmake'
+[0.644s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common'
+[0.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_sensors
+[0.896s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'control_rbkairos' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.896s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khotkangplue_p/week6_ws/src/control_rbkairos'
+[0.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_common
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_common/robotnik_common -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_common
+[1.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_common -- -j4 -l4
+[1.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_sensors/robotnik_sensors -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_sensors
+[1.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_sensors -- -j4 -l4
+[1.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_common -- -j4 -l4
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_common
+[1.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_sensors -- -j4 -l4
+[1.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_sensors
+[1.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotnik_common)
+[1.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_common
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common' for CMake module files
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common' for CMake config files
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_common', 'cmake_prefix_path')
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/cmake_prefix_path.ps1'
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/cmake_prefix_path.dsv'
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/cmake_prefix_path.sh'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/bin'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib/pkgconfig/robotnik_common.pc'
+[1.962s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages'
+[1.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_common', 'pythonpath')
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/pythonpath.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/pythonpath.dsv'
+[1.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/pythonpath.sh'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/bin'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.ps1'
+[1.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.dsv'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.sh'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.bash'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.zsh'
+[1.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/robotnik_common/share/colcon-core/packages/robotnik_common)
+[1.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotnik_common)
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common' for CMake module files
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common' for CMake config files
+[1.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_common', 'cmake_prefix_path')
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/cmake_prefix_path.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/cmake_prefix_path.dsv'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/cmake_prefix_path.sh'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/bin'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib/pkgconfig/robotnik_common.pc'
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/lib/python3.12/site-packages'
+[1.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_common', 'pythonpath')
+[1.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/pythonpath.ps1'
+[1.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/pythonpath.dsv'
+[1.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/hook/pythonpath.sh'
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_common/bin'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.dsv'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.sh'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.bash'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_common/share/robotnik_common/package.zsh'
+[1.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/robotnik_common/share/colcon-core/packages/robotnik_common)
+[1.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotnik_sensors)
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors' for CMake module files
+[1.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_sensors
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors' for CMake config files
+[1.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_sensors', 'cmake_prefix_path')
+[1.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/hook/cmake_prefix_path.ps1'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/hook/cmake_prefix_path.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/hook/cmake_prefix_path.sh'
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/bin'
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/lib/pkgconfig/robotnik_sensors.pc'
+[1.992s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/lib/python3.12/site-packages'
+[1.992s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/bin'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.ps1'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.dsv'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.sh'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.bash'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.zsh'
+[1.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/colcon-core/packages/robotnik_sensors)
+[1.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotnik_sensors)
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors' for CMake module files
+[1.997s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors' for CMake config files
+[1.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_sensors', 'cmake_prefix_path')
+[1.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/hook/cmake_prefix_path.ps1'
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/hook/cmake_prefix_path.dsv'
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/hook/cmake_prefix_path.sh'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/bin'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/lib/pkgconfig/robotnik_sensors.pc'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/lib/python3.12/site-packages'
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/bin'
+[2.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.ps1'
+[2.001s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.dsv'
+[2.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.sh'
+[2.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.bash'
+[2.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/robotnik_sensors/package.zsh'
+[2.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/robotnik_sensors/share/colcon-core/packages/robotnik_sensors)
+[2.003s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khotkangplue_p/week6_ws/src/robotnik_description' with build type 'ament_cmake'
+[2.003s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khotkangplue_p/week6_ws/src/robotnik_description'
+[2.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/control_rbkairos': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/khotkangplue_p/week6_ws/build/control_rbkairos/build
+[2.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_description': CMAKE_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:/home/khotkangplue_p/week6_ws/install/robotnik_description:/home/khotkangplue_p/week6_ws/install/robotnik_common:/home/khotkangplue_p/week6_ws/install/diff_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_description -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_description
+[2.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/control_rbkairos' returned '0': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/khotkangplue_p/week6_ws/build/control_rbkairos/build
+[2.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/src/control_rbkairos': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_rbkairos build --build-base /home/khotkangplue_p/week6_ws/build/control_rbkairos/build install --record /home/khotkangplue_p/week6_ws/build/control_rbkairos/install.log --single-version-externally-managed install_data --force
+[3.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_description' returned '0': CMAKE_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:/home/khotkangplue_p/week6_ws/install/robotnik_description:/home/khotkangplue_p/week6_ws/install/robotnik_common:/home/khotkangplue_p/week6_ws/install/diff_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/robotnik_description -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/robotnik_description
+[3.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_description': CMAKE_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:/home/khotkangplue_p/week6_ws/install/robotnik_description:/home/khotkangplue_p/week6_ws/install/robotnik_common:/home/khotkangplue_p/week6_ws/install/diff_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_description -- -j4 -l4
+[3.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_description' returned '0': CMAKE_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:/home/khotkangplue_p/week6_ws/install/robotnik_description:/home/khotkangplue_p/week6_ws/install/robotnik_common:/home/khotkangplue_p/week6_ws/install/diff_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/robotnik_description -- -j4 -l4
+[3.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/robotnik_description': CMAKE_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:/home/khotkangplue_p/week6_ws/install/robotnik_description:/home/khotkangplue_p/week6_ws/install/robotnik_common:/home/khotkangplue_p/week6_ws/install/diff_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_description
+[3.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotnik_description)
+[3.379s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description' for CMake module files
+[3.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/robotnik_description' returned '0': CMAKE_PREFIX_PATH=/home/khotkangplue_p/week6_ws/install/robotnik_sensors:/home/khotkangplue_p/week6_ws/install/robotnik_description:/home/khotkangplue_p/week6_ws/install/robotnik_common:/home/khotkangplue_p/week6_ws/install/diff_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/robotnik_description
+[3.380s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description' for CMake config files
+[3.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_description', 'cmake_prefix_path')
+[3.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/hook/cmake_prefix_path.ps1'
+[3.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/hook/cmake_prefix_path.dsv'
+[3.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/hook/cmake_prefix_path.sh'
+[3.383s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/bin'
+[3.384s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/lib/pkgconfig/robotnik_description.pc'
+[3.384s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/lib/python3.12/site-packages'
+[3.384s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/bin'
+[3.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.ps1'
+[3.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.dsv'
+[3.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.sh'
+[3.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.bash'
+[3.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.zsh'
+[3.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/robotnik_description/share/colcon-core/packages/robotnik_description)
+[3.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotnik_description)
+[3.386s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description' for CMake module files
+[3.387s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description' for CMake config files
+[3.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotnik_description', 'cmake_prefix_path')
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/hook/cmake_prefix_path.ps1'
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/hook/cmake_prefix_path.dsv'
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/hook/cmake_prefix_path.sh'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/bin'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/lib/pkgconfig/robotnik_description.pc'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/lib/python3.12/site-packages'
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/robotnik_description/bin'
+[3.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.ps1'
+[3.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.dsv'
+[3.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.sh'
+[3.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.bash'
+[3.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/robotnik_description/share/robotnik_description/package.zsh'
+[3.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/robotnik_description/share/colcon-core/packages/robotnik_description)
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/control_rbkairos' for CMake module files
+[3.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/src/control_rbkairos' returned '0': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_rbkairos build --build-base /home/khotkangplue_p/week6_ws/build/control_rbkairos/build install --record /home/khotkangplue_p/week6_ws/build/control_rbkairos/install.log --single-version-externally-managed install_data --force
+[3.578s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/control_rbkairos' for CMake config files
+[3.579s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib'
+[3.579s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/control_rbkairos/bin'
+[3.579s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/pkgconfig/control_rbkairos.pc'
+[3.580s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages'
+[3.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_rbkairos', 'pythonpath')
+[3.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/hook/pythonpath.ps1'
+[3.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/hook/pythonpath.dsv'
+[3.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/hook/pythonpath.sh'
+[3.581s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/control_rbkairos/bin'
+[3.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_rbkairos)
+[3.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/package.ps1'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/package.dsv'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/package.sh'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/package.bash'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/package.zsh'
+[3.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/control_rbkairos/share/colcon-core/packages/control_rbkairos)
+[3.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake /home/khotkangplue_p/week6_ws/src/ros2_diff_drive_robot -DCMAKE_INSTALL_PREFIX=/home/khotkangplue_p/week6_ws/install/diff_robot
+[3.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+[3.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --build /home/khotkangplue_p/week6_ws/build/diff_robot -- -j4 -l4
+[3.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khotkangplue_p/week6_ws/build/diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot
+[3.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_robot)
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot' for CMake module files
+[3.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khotkangplue_p/week6_ws/build/diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khotkangplue_p/week6_ws/install/control_rbkairos:/opt/ros/jazzy /usr/bin/cmake --install /home/khotkangplue_p/week6_ws/build/diff_robot
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot' for CMake config files
+[3.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_robot', 'cmake_prefix_path')
+[3.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/hook/cmake_prefix_path.ps1'
+[3.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/hook/cmake_prefix_path.dsv'
+[3.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/hook/cmake_prefix_path.sh'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/lib'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/bin'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/lib/pkgconfig/diff_robot.pc'
+[3.995s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/lib/python3.12/site-packages'
+[3.995s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/bin'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.ps1'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.dsv'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.sh'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.bash'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.zsh'
+[3.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/diff_robot/share/colcon-core/packages/diff_robot)
+[3.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_robot)
+[3.997s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot' for CMake module files
+[3.997s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot' for CMake config files
+[3.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_robot', 'cmake_prefix_path')
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/hook/cmake_prefix_path.ps1'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/hook/cmake_prefix_path.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/hook/cmake_prefix_path.sh'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/lib'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/bin'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/lib/pkgconfig/diff_robot.pc'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/lib/python3.12/site-packages'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/khotkangplue_p/week6_ws/install/diff_robot/bin'
+[3.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.ps1'
+[4.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.dsv'
+[4.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.sh'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.bash'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/khotkangplue_p/week6_ws/install/diff_robot/share/diff_robot/package.zsh'
+[4.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khotkangplue_p/week6_ws/install/diff_robot/share/colcon-core/packages/diff_robot)
+[4.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.002s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.094s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.097s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.097s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.097s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khotkangplue_p/week6_ws/install/local_setup.ps1'
+[4.099s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khotkangplue_p/week6_ws/install/_local_setup_util_ps1.py'
+[4.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khotkangplue_p/week6_ws/install/setup.ps1'
+[4.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khotkangplue_p/week6_ws/install/local_setup.sh'
+[4.102s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khotkangplue_p/week6_ws/install/_local_setup_util_sh.py'
+[4.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khotkangplue_p/week6_ws/install/setup.sh'
+[4.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khotkangplue_p/week6_ws/install/local_setup.bash'
+[4.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khotkangplue_p/week6_ws/install/setup.bash'
+[4.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khotkangplue_p/week6_ws/install/local_setup.zsh'
+[4.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khotkangplue_p/week6_ws/install/setup.zsh'

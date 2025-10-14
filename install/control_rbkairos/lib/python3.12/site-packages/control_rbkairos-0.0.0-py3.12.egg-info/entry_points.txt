@@ -1,0 +1,3 @@
+[console_scripts]
+move_robot = control_rbkairos.move_robot:main
+robot_movement = control_rbkairos.scripts.robot_movement:main

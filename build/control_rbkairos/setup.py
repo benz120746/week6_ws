@@ -1,1 +1,0 @@
-/home/khotkangplue_p/week6_ws/src/control_rbkairos/setup.py

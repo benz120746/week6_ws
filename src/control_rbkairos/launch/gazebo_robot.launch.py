@@ -20,9 +20,9 @@ def generate_launch_description():
     
     # === Start Gazebo simulation ===
     start_gazebo_cmd = ExecuteProcess(
-        cmd    = ['gz', 'sim', '-r', world_file_path],
-        env    = env,
-        output = 'screen'
+        cmd=['gz', 'sim', '-r', world_file_path],
+        env=env,
+        output='screen'
     )
 
     # === File path for the world model ===
@@ -35,7 +35,7 @@ def generate_launch_description():
 
     # === Spawn robot entity into Gazebo ===
     spawn_robot_model = TimerAction(
-        period =5.0,
+        period=5.0,
         actions=[
             Node(
                 package='ros_gz_sim',
@@ -66,25 +66,48 @@ def generate_launch_description():
             )
         ]
     )
+
+    # === Joint State Broadcaster ===
     robot_joint_state_broadcaster = Node(
         package='controller_manager',
         executable='spawner',
         arguments=['joint_state_broadcaster', '--controller-manager', '/controller_manager'],
         output='screen'
     )
+
     # === Clock bridge (GZ -> ROS 2) ===
     clock_bridge_node = Node(
-    package='ros_gz_bridge',
-    executable='parameter_bridge',
-    name='clock_bridge',
-    arguments=[
-        '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-        '--ros-args',
-        '-p', 'use_sim_time:=true'
-    ],
-    output='screen'
-)
-    
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        name='clock_bridge',
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
+            '--ros-args',
+            '-p', 'use_sim_time:=true'
+        ],
+        output='screen'
+    )
+
+    # === Bridge for the laser scanners ===
+    laser_bridge_node = TimerAction(
+        period=7.0,   # รอ world + sensor โหลดก่อน
+        actions=[
+            Node(
+                package='ros_gz_bridge',
+                executable='parameter_bridge',
+                name='laser_bridge',
+                arguments=[
+                    '/front_laser_lidar/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
+                ],
+                remappings=[
+                    ('/front_laser_lidar/scan', '/scan')
+                ],
+                output='screen'
+            )
+        ]
+    )
+
+    # === Diff Drive Controller ===
     diff_drive_controller = Node(
         package='controller_manager',
         executable='spawner',
@@ -100,5 +123,6 @@ def generate_launch_description():
         robot_state_publisher,
         robot_joint_state_broadcaster,
         clock_bridge_node,
+        laser_bridge_node,         # ✅ เพิ่ม bridge laser
         diff_drive_controller,
     ])

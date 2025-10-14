@@ -1,0 +1,40 @@
+[1.398s] Invoking command in '/home/khotkangplue_p/week6_ws/build/control_rbkairos': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/khotkangplue_p/week6_ws/build/control_rbkairos/build
+[1.823s] running develop
+[2.038s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[2.038s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.078s] Removing /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control-rbkairos.egg-link (link to .)
+[2.120s] Invoked command in '/home/khotkangplue_p/week6_ws/build/control_rbkairos' returned '0': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/khotkangplue_p/week6_ws/build/control_rbkairos/build
+[2.122s] Invoking command in '/home/khotkangplue_p/week6_ws/src/control_rbkairos': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_rbkairos build --build-base /home/khotkangplue_p/week6_ws/build/control_rbkairos/build install --record /home/khotkangplue_p/week6_ws/build/control_rbkairos/install.log --single-version-externally-managed install_data --force
+[2.471s] running egg_info
+[2.531s] writing ../../build/control_rbkairos/control_rbkairos.egg-info/PKG-INFO
+[2.532s] writing dependency_links to ../../build/control_rbkairos/control_rbkairos.egg-info/dependency_links.txt
+[2.532s] writing entry points to ../../build/control_rbkairos/control_rbkairos.egg-info/entry_points.txt
+[2.532s] writing requirements to ../../build/control_rbkairos/control_rbkairos.egg-info/requires.txt
+[2.533s] writing top-level names to ../../build/control_rbkairos/control_rbkairos.egg-info/top_level.txt
+[2.692s] reading manifest file '../../build/control_rbkairos/control_rbkairos.egg-info/SOURCES.txt'
+[2.693s] adding license file 'LICENSE'
+[2.693s] adding license file 'LICENSE:Zone.Identifier'
+[2.695s] writing manifest file '../../build/control_rbkairos/control_rbkairos.egg-info/SOURCES.txt'
+[2.696s] running build
+[2.696s] running build_py
+[2.696s] running install
+[2.705s] running install_lib
+[2.735s] creating /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control_rbkairos
+[2.735s] copying /home/khotkangplue_p/week6_ws/build/control_rbkairos/build/lib/control_rbkairos/__init__.py -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control_rbkairos
+[2.735s] copying /home/khotkangplue_p/week6_ws/build/control_rbkairos/build/lib/control_rbkairos/move_robot.py -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control_rbkairos
+[2.736s] byte-compiling /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control_rbkairos/__init__.py to __init__.cpython-312.pyc
+[2.737s] byte-compiling /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control_rbkairos/move_robot.py to move_robot.cpython-312.pyc
+[2.738s] running install_data
+[2.738s] copying package.xml -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos
+[2.739s] copying launch/gazebo.launch.py -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/launch
+[2.739s] copying launch/gazebo_robot.launch.py -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/launch
+[2.739s] copying launch/gz_spawn_rbkairos.launch.py -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/launch
+[2.740s] copying urdf/rbrobout.urdf.xacro -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/urdf
+[2.740s] copying scripts/robot_movement.py -> /home/khotkangplue_p/week6_ws/install/control_rbkairos/share/control_rbkairos/scripts
+[2.741s] running install_egg_info
+[2.764s] Copying ../../build/control_rbkairos/control_rbkairos.egg-info to /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages/control_rbkairos-0.0.0-py3.12.egg-info
+[2.766s] running install_scripts
+[2.915s] Installing move_robot script to /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/control_rbkairos
+[2.916s] Installing robot_movement script to /home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/control_rbkairos
+[2.916s] writing list of installed files to '/home/khotkangplue_p/week6_ws/build/control_rbkairos/install.log'
+[2.947s] Invoked command in '/home/khotkangplue_p/week6_ws/src/control_rbkairos' returned '0': PYTHONPATH=/home/khotkangplue_p/week6_ws/build/control_rbkairos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khotkangplue_p/week6_ws/install/control_rbkairos/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control_rbkairos build --build-base /home/khotkangplue_p/week6_ws/build/control_rbkairos/build install --record /home/khotkangplue_p/week6_ws/build/control_rbkairos/install.log --single-version-externally-managed install_data --force
