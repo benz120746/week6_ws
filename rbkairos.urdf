@@ -299,7 +299,7 @@
     <material>Gazebo/Red</material>
   </gazebo>
   <joint name="front_laser_base_joint" type="fixed">
-    <origin rpy="0 -3.141592653589793 2.356194490192345" xyz="0.2865 -0.20894 0.2973"/>
+    <origin rpy="0 0 0" xyz="0.2865 0 0.2973"/>
     <parent link="base_link"/>
     <child link="front_laser_base_link"/>
   </joint>
@@ -327,7 +327,40 @@
     <parent link="front_laser_base_link"/>
     <child link="front_laser_link"/>
   </joint>
-  <link name="front_laser_link"/>
+
+  <!-- FRONT LIDAR for GZ: move sensor under the link (no Classic <gazebo reference> block) -->
+<link name="front_laser_link">
+  <!-- geometry/inertial/visual/collision ตามเดิมของคุณ -->
+</link>
+
+<gazebo reference="front_laser_link">
+  <sensor name="front_laser" type="gpu_lidar">
+    <update_rate>15</update_rate>
+    <lidar>
+      <scan>
+        <horizontal>
+          <samples>320</samples>
+          <resolution>1.0</resolution>
+          <min_angle>-1.57</min_angle>
+          <max_angle>1.57</max_angle>
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.1</min>
+        <max>10.0</max>
+        <resolution>0.01</resolution>
+      </range>
+    </lidar>
+    <always_on>true</always_on>
+    <visualize>true</visualize>
+    <!-- ตอนนี้ยังไม่ใส่ <topic> ให้ GZ ตั้งเองก่อน -->
+  </sensor>
+</gazebo>
+
+
+
+
+
   <joint name="rear_laser_base_joint" type="fixed">
     <origin rpy="0 -3.141592653589793 -0.7853981633974483" xyz="-0.2865 0.20894 0.2973"/>
     <parent link="base_link"/>
@@ -358,6 +391,7 @@
     <child link="rear_laser_link"/>
   </joint>
   <link name="rear_laser_link"/>
+
   <joint name="front_rgbd_camera_base_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.35850 0.0 0.25062"/>
     <parent link="base_link"/>
@@ -445,7 +479,6 @@
   </joint>
   <link name="front_rgbd_camera_color_optical_frame"/>
 
-
   <!-- ROS2 Control hardware and joints -->
   <ros2_control name="GazeboSystem" type="system">
     <hardware>
@@ -493,12 +526,76 @@
     </joint>
   </ros2_control>
 
+  <!-- Wheeled link collision friction directions -->
+  <!-- FRONT RIGHT -->
+  <gazebo reference="front_right_wheel_link">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.0</mu>
+            <mu2>0.0</mu2>
+            <fdir1 gz:expressed_in="base_footprint">1 1 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <!-- FRONT LEFT -->
+  <gazebo reference="front_left_wheel_link">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.0</mu>
+            <mu2>0.0</mu2>
+            <fdir1 gz:expressed_in="base_footprint">1 -1 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <!-- BACK LEFT -->
+  <gazebo reference="back_left_wheel_link">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.0</mu>
+            <mu2>0.0</mu2>
+            <fdir1 gz:expressed_in="base_footprint">1 1 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <!-- BACK RIGHT -->
+  <gazebo reference="back_right_wheel_link">
+    <collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1.0</mu>
+            <mu2>0.0</mu2>
+            <fdir1 gz:expressed_in="base_footprint">1 -1 0</fdir1>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+  </gazebo>
+
   <!-- Gazebo plugin for ros2_control -->
   <gazebo>
+  
+  <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+  <render_engine>ogre2</render_engine>
+</plugin>
+
     <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="libgz_ros2_control-system.so">
       <parameters>/home/khotkangplue_p/week6_ws/robot_models/test_controller.yaml</parameters>
     </plugin>
   </gazebo>
-
-
 </robot>
